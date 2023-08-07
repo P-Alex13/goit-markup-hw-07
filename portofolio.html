@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="portofolio.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script-portofolio.js"></script>
+  </head>
+  <body class="portofolio">
+    <header>
+      <div class="global-nav">
+        <nav class="nav main-nav">
+          <div class="nav-bar">
+            <a href="index.html">
+              <div class="web"><span class="web-logo">Web</span>Studio</div>
+            </a>
+            <div class="menu-bar">
+              <ul>
+                <li><a class="studio" href="index.html">Studio</a></li>
+                <li>
+                  <a class="portofolio" href="portofolio.html">Portofolio</a>
+                </li>
+                <li><a class="contacts" href="#">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="contacts-header">
+          <a class="mail" href="mailto:info@devstudio.com">
+            <svg class="svg-mail">
+              <use href="./images/icons.svg#icon-mail"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+          <a class="phone" href="tel:+12127724150">
+            <svg class="svg-phone">
+              <use href="./images/icons.svg#icon-smartphone"></use></svg
+            >+1 212-772-4150</a
+          >
+        </div>
+      </div>
+      <hr class="line" />
+    </header>
+    <main>
+      <div class="container1">
+        <section>
+          <div class="filter1">
+            <button
+              class="btn-active"
+              onclick="filterImages('All')"
+              type="button"
+            >
+              All
+            </button>
+            <button class="btnWeb" onclick="filterImages('Web-site')">
+              Web-sites
+            </button>
+            <button
+              class="btnApps"
+              onclick="filterImages('Apps')"
+              type="button"
+            >
+              Apps
+            </button>
+            <button
+              class="btnDesign"
+              onclick="filterImages('Design')"
+              type="button"
+            >
+              Design
+            </button>
+            <button
+              class="btnMarketing"
+              onclick="filterImages('Marketing')"
+              type="button"
+            >
+              Marketing
+            </button>
+          </div>
+        </section>
+        <section class="project">
+          <div class="global-project">
+            <div class="project1">
+              <div class="img-container">
+                <img
+                  class="image-project"
+                  src="images/project1-portofolio.jpg"
+                  alt="Web-site on a laptop"
+                  width="355"
+                />
+                <div class="img-overlay">
+                  <div class="img-text">
+                    Technoduck is a state-of-the-art coronavirus distribution
+                    platform. Companies use this platform for digital espionage
+                    and attacks on competitors' secure servers.
+                  </div>
+                </div>
+              </div>
+              <h2>Technoduck</h2>
+              <span>Web-site</span>
+            </div>
+
+            <div class="project1">
+              <div class="img-container">
+                <img
+                 class="image-project"
+                  src="images/project2-portofolio.jpg"
+                  alt="Two basketball players from New Orlean and Golden Start"
+                  width="355"
+                />
+                <div class="img-overlay">
+                  <div class="img-text">
+                    
+                  </div>
+                </div>
+              </div>
+              <h2>Poster New Orlean vs Golden Star</h2>
+              <span>Design</span>
+            </div>
+
+            <div class="project1">
+              <div class="img-container">
+                <img
+                 class="image-project"
+                  src="images/project3-portofolio.jpg"
+                  alt="Seafood Restaurant logo"
+                  width="355"
+                />
+                <div class="img-overlay">
+                  <div class="img-text">
+                    
+                  </div>
+                </div>
+              </div>
+              <h2>Seafood Restaurant</h2>
+              <span>Apps</span>
+            </div>
+
+            <div class="project1">
+              <div class="img-container">
+              <img
+               class="image-project"
+                src="images/project4-portofolio.jpg"
+                alt="A pic with headset"
+                width="355"
+              />
+              <div class="img-overlay">
+                <div class="img-text">
+                  
+                </div>
+              </div>
+              </div>
+              <h2>Project Prime</h2>
+              <span>Marketing</span>
+            </div>
+
+            <div class="project1">
+              <div class="img-container">
+              <img
+               class="image-project"
+                src="images/project5-portofolio.jpg"
+                alt="two small boxes"
+                width="355"
+              />
+              <div class="img-overlay">
+                <div class="img-text">
+                 
+                </div>
+              </div>
+              </div>
+
+              <h2>Project Boxes</h2>
+              <span>Apps</span>
+            </div>
+
+            <div class="project1">
+              <div class="img-container">
+              <img
+               class="image-project"
+                src="images/project6-portofolio.jpg"
+                alt="Web-site presentation on iMac"
+                width="355"
+              />
+              <div class="img-overlay">
+                <div class="img-text">
+                  
+                </div>
+              </div>
+              </div>
+              <h2>Inspiration has no Borders</h2>
+              <span>Web-site</span>
+            </div>
+
+            <div class="project1">
+              <div class="img-container">
+              <img
+               class="image-project"
+                src="images/project7-portofolio.jpg"
+                alt="An open book"
+                width="355"
+              />
+              <div class="img-overlay">
+                <div class="img-text">
+                 
+                </div>
+              </div>
+              </div>
+              <h2>Limited Edition</h2>
+              <span>Design</span>
+            </div>
+
+            <div class="project1">
+              <div class="img-container">
+              <img
+               class="image-project"
+                src="images/project8-portofolio.jpg"
+                alt="Label Mockup "
+                width="355"
+              />
+              <div class="img-overlay">
+                <div class="img-text">
+                  
+                </div>
+              </div>
+              </div>
+              <h2>Project LAB</h2>
+              <span>Marketing</span>
+            </div>
+
+            <div class="project1">
+              <div class="img-container">
+              <img
+               class="image-project"
+                src="images/project9-portofolio.jpg"
+                alt="Web-site on a MacBook"
+                width="355"
+              />
+              <div class="img-overlay">
+                <div class="img-text">
+                  
+                </div>
+              </div>
+              </div>
+              <h2>Growing Business</h2>
+              <span>Apps</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="main-footer">
+      <section class="container-section">
+        <div class="global-footer">
+          <a href="portofolio.html" class="logo"
+            ><span class="web-logo">Web</span>Studio</a
+          >
+          <address class="mail-phone">
+            <a
+              class="address"
+              href="https://www.google.com/maps/place/Pia%C8%9Ba+Doroban%C8%9Bilor+4,+Bucure%C8%99ti/@44.4603257,26.0935392,17z/data=!3m1!4b1!4m6!3m5!1s0x40b20207c47b0dc7:0xb979c544e12189bf!8m2!3d44.4603257!4d26.0935392!16s%2Fg%2F11c2285khn?entry=ttu"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Piata Dorobantilor 4, Bucuresti</a
+            >
+
+            <a class="mail-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+
+            <a class="phone-footer" href="tel:+12127724150">+1 212-772-4150</a>
+          </address>
+        </div>
+        <div class="footer-links">
+          <h3>FIND US ON</h3>
+
+          <div class="links-list">
+            <a
+              href="https://www.instagram.com"
+              class="icon-footer"
+              aria-label="Instagram"
+              ><svg>
+                <use
+                  href="./images/icons.svg#icon-instagram"
+                  aria-label="BRAND logo"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.twitter.com"
+              class="icon-footer"
+              aria-label="Twitter"
+              ><svg>
+                <use
+                  href="./images/icons.svg#icon-twitter"
+                  aria-label="BRAND logo"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.Facebook.com"
+              aria-label="Facebook"
+              class="icon-footer"
+              ><svg>
+                <use
+                  href="./images/icons.svg#icon-facebook"
+                  aria-label="BRAND logo"
+                ></use>
+              </svg>
+            </a>
+            <a
+              href="https://www.Linkedin.com"
+              class="icon-footer"
+              aria-label="Linkedin"
+              ><svg>
+                <use
+                  href="./images/icons.svg#icon-linkedin"
+                  aria-label="BRAND logo"
+                ></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        </section>
+      <section class="subscribe">
+        <h3>Subscribe to the newsletter</h3>
+        <form action="">
+          <div class="form-row">
+            <label class="form-group">
+              <input type="text" placeholder="E-mail">
+            </label>
+          <button class="input-btn" type="submit">Subscribe
+            <svg>
+              <use href="./images/icons.svg#icon-send" >
+
+              </use>
+            </svg>
+          </button>
+          </div>
+        </form>
+      </section>
+      </section>
+    </footer>
+  </body>
+</html>
