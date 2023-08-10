@@ -6,7 +6,6 @@ body {
 
   background: #ffffff;
   margin: auto;
-  
 }
 
 /* Mobile-first */
@@ -18,14 +17,10 @@ body {
     flex-shrink: 0;
   }
 
-  
-
   .js-menu-container {
     display: none;
     overflow: hidden;
     cursor: pointer;
-    
-   
   }
 
   .js-menu-container.is-open {
@@ -37,22 +32,21 @@ body {
     background-color: white;
     width: 100%;
     height: 100%;
-flex-shrink: 0;
-    padding: 48px 40px;
+    flex-shrink: 0;
+
     z-index: 1;
     overflow: hidden;
-    
   }
-  
-  .js-menu-container .nav-bar{
-      margin-top: 48px;
+
+  .js-menu-container .nav-bar {
+    margin-top: 48px;
     margin-left: 40px;
     margin-bottom: 306px;
   }
 
   .js-menu-container .menu-bar-mobile .header-link a {
     color: #212121;
-    font-family: "Roboto" , sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
@@ -62,25 +56,22 @@ flex-shrink: 0;
   }
 
   .js-menu-container .nav-bar ul {
-    
     list-style-type: none;
   }
 
-
-
-.js-menu-container .nav-bar ul {
+  .js-menu-container .nav-bar ul {
     display: flex;
     flex-direction: column;
     gap: 32px;
   }
 
-.js-menu-container .menu-bar-mobile li a:hover,
+  .js-menu-container .menu-bar-mobile li a:hover,
   .js-menu-container .menu-bar-mobile li a:focus {
     color: #2196f3;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
- .js-close-menu {
+  .js-close-menu {
     width: 40px;
     height: 40px;
     flex-shrink: 0;
@@ -94,16 +85,14 @@ flex-shrink: 0;
     z-index: 1;
   }
 
-.js-close-menu:hover,
+  .js-close-menu:hover,
   .js-close-menu:focus {
     color: #2196f3;
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-
-
-.js-menu-container .contacts-header-mobile {
+  .js-menu-container .contacts-header-mobile {
     margin-left: 40px;
     display: flex;
     flex-direction: column;
@@ -115,15 +104,15 @@ flex-shrink: 0;
     text-decoration: none;
   }
 
-.js-menu-container .contacts-header-mobile .phone  {
+  .js-menu-container .contacts-header-mobile .phone {
     color: #2196f3;
-    font-family: "Roboto" , sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 34px;
     font-weight: 500;
     letter-spacing: 0.68px;
   }
 
- .js-menu-container .contacts-header-mobile .mail  {
+  .js-menu-container .contacts-header-mobile .mail {
     color: #757575;
     font-family: "Roboto";
     font-size: 24px;
@@ -136,11 +125,11 @@ flex-shrink: 0;
     color: #2196f3;
   }
 
-.js-menu-container .social-titles {
+  .js-menu-container .social-titles {
     display: flex;
     gap: 10px;
     color: #2196f3;
-    font-family: "roboto" , sans-serif;
+    font-family: "roboto", sans-serif;
     font-size: 18px;
     font-weight: 500;
     line-height: 22px;
@@ -150,13 +139,11 @@ flex-shrink: 0;
     list-style-type: none;
   }
 
-  
-.js-menu-container .social-titles .break-line {
+  .js-menu-container .social-titles .break-line {
     width: 1px;
     height: 22px;
     background: rgba(33, 33, 33, 0.2);
   }
-
 
   .global-nav {
     display: none;
@@ -396,19 +383,14 @@ flex-shrink: 0;
 
   /* Our Team Section*/
 
-  
-
   .our-team {
     background: #f5f4fa;
     width: 100%;
     height: 2761px;
     flex-shrink: 0;
     flex-direction: column;
-    margin-top:60px;
-    
+    margin-top: 60px;
   }
-
-  
 
   .our-team h2 {
     width: 165px;
@@ -429,12 +411,11 @@ flex-shrink: 0;
     display: flex;
     gap: 30px;
     flex-direction: column;
-      justify-content: center;
+    justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
     padding-top: 30px;
-
   }
 
   .card {
@@ -445,14 +426,10 @@ flex-shrink: 0;
     width: 450px;
     height: 622px;
     flex-shrink: 0;
-
-  
-   
   }
 
-  .our-team img{ 
+  .our-team img {
     width: 100%;
-
   }
 
   .our-team span {
@@ -534,17 +511,17 @@ flex-shrink: 0;
     justify-content: center;
     margin-top: 94px;
   }
-/* Regular Section */
+  /* Regular Section */
   .regular-section {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 100%;
-height: 399px;
-flex-shrink: 0;
-
-}
+    height: 399px;
+    flex-shrink: 0;
+    margin-bottom: 94px;
+  }
 
   .regular-section .container-list svg {
     color: #757575;
@@ -554,13 +531,11 @@ flex-shrink: 0;
   .regular-section .regular-list {
     display: flex;
     justify-content: center;
-    
-   
+
     gap: 30px;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    
   }
 
   .regular-list .container-list {
@@ -584,8 +559,7 @@ flex-shrink: 0;
   /* Footer Section */
 
   .main-footer {
-    
-   width: 100%;
+    width: 100%;
     height: 604px;
     flex-direction: column;
     justify-content: center;
@@ -593,15 +567,13 @@ flex-shrink: 0;
     gap: 60px;
     text-align: center;
     background: #2f303a;
-    margin-top: 94px;
+    
   }
   .main-footer .container-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
   }
 
   .global-footer {
@@ -747,8 +719,8 @@ flex-shrink: 0;
   }
   .form-group input {
     width: 450px;
-height: 50px;
-flex-shrink: 0;
+    height: 50px;
+    flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     background: rgba(33, 150, 243, 0);
@@ -763,7 +735,6 @@ flex-shrink: 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
   .input-btn svg {
@@ -809,12 +780,7 @@ flex-shrink: 0;
     justify-content: center;
     align-items: center;
     margin-top: 72px;
-    
-    
   }
-
-
-  
 
   /* Modal  */
 
@@ -822,8 +788,9 @@ flex-shrink: 0;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 796px;
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -833,8 +800,8 @@ flex-shrink: 0;
   .modal-content {
     padding: 16px;
     background: #ffffff;
-    width: 528px;
-    height: 581px;
+    width: 450px;
+    height: 609px;
     flex-shrink: 0;
     margin: 0 auto;
     position: relative;
@@ -883,9 +850,7 @@ flex-shrink: 0;
     flex-direction: column;
 
     margin-top: 30px;
-    width: 448px;
-    height: 40px;
-    flex-shrink: 0;
+
     gap: 10px;
     position: relative;
     margin-top: 12px;
@@ -929,7 +894,7 @@ flex-shrink: 0;
   }
 
   .form-group-modal input {
-    width: 448px;
+    width: 370px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
@@ -970,7 +935,7 @@ flex-shrink: 0;
   }
 
   .textarea-container {
-    width: 448px;
+    width: 370px;
     height: 120px;
     flex-shrink: 0;
     border-radius: 4px;
@@ -995,7 +960,7 @@ flex-shrink: 0;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.14px;
-    width: 416px;
+    width: 338px;
     height: 96px;
     flex-shrink: 0;
   }
@@ -1485,7 +1450,6 @@ flex-shrink: 0;
   /* Our Team Section*/
 
   .our-team {
-    
     flex-direction: column;
     width: 768px;
     height: 1285px;
@@ -1515,7 +1479,7 @@ flex-shrink: 0;
     display: flex;
     gap: 30px;
     flex-direction: column;
-      justify-content: center;
+    justify-content: center;
     align-items: center;
     padding: 0;
   }
@@ -1526,9 +1490,8 @@ flex-shrink: 0;
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     width: 354px;
-height: 536px;
-flex-shrink: 0;
-    
+    height: 536px;
+    flex-shrink: 0;
 
     flex-direction: column;
   }
@@ -1543,7 +1506,6 @@ flex-shrink: 0;
 
   .our-team img {
     width: 100%;
-
   }
 
   .our-team span {
@@ -1656,8 +1618,8 @@ flex-shrink: 0;
   .regular-list .container-list {
     display: flex;
     width: 226px;
-height: 92px;
-flex-shrink: 0;
+    height: 92px;
+    flex-shrink: 0;
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid #afb1b8;
@@ -1971,8 +1933,8 @@ flex-shrink: 0;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 581px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1982,8 +1944,9 @@ flex-shrink: 0;
   .modal-content {
     padding: 16px;
     background: #ffffff;
-    width: 528px;
-    height: 581px;
+    width: 450px;
+height: 609px;
+flex-shrink: 0;
     flex-shrink: 0;
     margin: 0 auto;
     position: relative;
